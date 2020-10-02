@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "testDataFactorysampledata"
+		},
+		"AzureDataLakeStorage1Gen2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStore1_servicePrincipalKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1Gen2_properties_typeProperties_url": {
+			"value": "https://datalakeforrestapidata.dfs.core.windows.net"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://datalakestoragegen1rest.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_servicePrincipalId": {
+			"value": "8b7db06a-f350-4174-9c01-11c541116359"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_tenant": {
+			"value": "5d159ae2-32d6-45a3-9cd1-fb64feddb4ca"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_subscriptionId": {
+			"value": "7361a273-b270-460d-8272-c14f26e999da"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_resourceGroupName": {
+			"value": "testDataFactoryResourceGroup"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "http://dummy.restapiexample.com/api/v1/employees"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
