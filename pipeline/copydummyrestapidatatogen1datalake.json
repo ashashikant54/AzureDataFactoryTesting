@@ -1,5 +1,5 @@
 {
-	"name": "pipelinetocopydummyrestapidata",
+	"name": "copydummyrestapidatatogen1datalake",
 	"properties": {
 		"activities": [
 			{
