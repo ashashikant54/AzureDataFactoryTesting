@@ -1,9 +1,9 @@
 {
-	"name": "copydummyrestapidatatogen1datalake",
+	"name": "pipelinetocopydummyrestapidata",
 	"properties": {
 		"activities": [
 			{
-				"name": "pipelinetocopydummyrestapidata",
+				"name": "copydummyrestapidatatogen1datalake",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
